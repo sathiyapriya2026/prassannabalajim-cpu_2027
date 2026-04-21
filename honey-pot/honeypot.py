@@ -76,4 +76,4 @@ if __name__ == "__main__":
         for t in threads:
             t.join()
     except KeyboardInterrupt:
-        print("\n[!] Honeypot shutting down.")
+        print("\n[!] Honeypot shutting down.\n")
